@@ -31,5 +31,8 @@
     "clean": "rm -rf cache artifacts && npx hardhat clean",
     "build": "npx hardhat compile",
     "deploy": "npx hardhat deploy --tags swap"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.8.0"
   }
 }

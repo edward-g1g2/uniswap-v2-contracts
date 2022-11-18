@@ -49,9 +49,14 @@ const config: HardhatUserConfig = {
       url: process.env.GOERLI_URL,
       accounts
     },
-    l1test: {
-      chainId: 23023,
-      url: 'http://127.0.0.1:10545',
+    // l1test: {
+    //   chainId: 23023,
+    //   url: 'http://127.0.0.1:10545',
+    //   accounts,
+    // },
+    l2test: {
+      chainId: 23022,
+      url: 'http://127.0.0.1:11545',
       accounts,
     }
   }
