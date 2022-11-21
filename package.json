@@ -30,7 +30,7 @@
   "scripts": {
     "clean": "rm -rf cache artifacts && npx hardhat clean",
     "build": "npx hardhat compile",
-    "deploy": "npx hardhat deploy --tags swap"
+    "deploy": "npx hardhat deploy --tags swap --network l2test"
   },
   "dependencies": {
     "@openzeppelin/contracts": "^4.8.0"
