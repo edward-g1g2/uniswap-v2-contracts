@@ -12,7 +12,6 @@ The contracts in this project are copied from Etherscan.
 
 
 ## Quick start
-In root directory, create a .env file, add your contents referring .env.example, then execute the following commands.
 ```shell
 yarn install
 yarn build
