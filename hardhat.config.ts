@@ -55,8 +55,7 @@ const config: HardhatUserConfig = {
     //   accounts,
     // },
     l2test: {
-      chainId: 1000001,
-      url: 'http://127.0.0.1:11545',
+      url: 'https://rpc.edwardrollup.byor.cloud',
       accounts,
     }
   }
